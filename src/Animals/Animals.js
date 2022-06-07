@@ -4,7 +4,7 @@ export default function AnimalList({ name, type, says }) {
   return (
     <div className='animalCard'>
       <p>{name}</p>
-      <img src={`/AnimalImages/${type}.png`}/>
+      <img className='img' src={`/AnimalImages/${type}.svg`}/>
       <p>{type}</p>
       <p>{says}</p>
     </div>
