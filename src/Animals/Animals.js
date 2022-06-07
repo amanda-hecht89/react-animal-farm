@@ -1,6 +1,6 @@
 import './Animals.css';
 
-export default function Animals({ name, type, says }) {
+export default function AnimalList({ name, type, says }) {
   return (
     <div className='animalCard'>
       <p>{name}</p>

@@ -2,11 +2,14 @@
     border: 5px dotted black;
     background-color: rgba(240, 248, 255, 0.489);
     display: flex;
-    flex-direction: row;
-    width: 40%;
-    margin: 15px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width: 40%;
+    margin: 10px;
+    
+    
+    
 }
 
 .animalCard header {
