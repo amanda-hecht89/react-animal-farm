@@ -3,7 +3,7 @@ import backgroundImg from '../farmbackground.jpeg';
 import './Main.css';
 import Animals from '../Animals/Animals';
 
-export default function Main({ animal }) {
+export default function Main({ animals }) {
     return (
         <main style={( backgroundImage: `url(${backgroundImg})` )}>
         {
