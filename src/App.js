@@ -9,10 +9,9 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Header name='name'/>
-      <Header type='type'/>
+      <Header />
       <Main animals={animal}/>
-      <Footer sound='says'/>
+      <Footer />
     </div>
   );
 }
