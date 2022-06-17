@@ -1,17 +1,13 @@
 import React from 'react';
 import './AnimalList.css';
 import backgroundImg from '../background.png';
+import Animals from '../Animals/Animals';
 
 export default function AnimalList({ animals }) {
   return (
     <div className='back' style={{ backgroundImage: `url(${backgroundImg})` }}>
       {
-        animals.map((animal, i) => <div style={{
-          position: 'absolute',
-          top: animal.top,
-          left: animal.left
-        }} key={animal.name + i}>{animal.name}<img src={`/animalImages/${animal.type}.svg`}/>{animal.says}</div>)  
+        animals.map((animal, i) => <Animals key={animal.name + i} name={animal.name} says={animal.says} type={animal.type} />)
       }
-    </div>
-  ); 
+    </div>);
 }
